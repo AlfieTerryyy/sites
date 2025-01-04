@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the portfolio showcasing work and services in web development and design.">
+    <meta name="keywords" content="web development, design, services, portfolio">
+    <meta name="author" content="Web Developer and Designer">
+    <meta property="og:title" content="Web Developer and Designer | Portfolio">
+    <meta property="og:description" content="Explore the portfolio offering web development, design, and creative services.">
+    <meta property="og:image" content="./assets/images/pre.png">
+    <meta property="og:url" content="./">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@WebDeveloper">
+    <meta name="theme-color" content="#2563eb">
+    <title>Contact | Pounder</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
+    <link rel="preload" href="./assets/css/pounder.css" as="style">
+    <link rel="preload" href="./assets/js/main.js" as="script">
+    <link rel="preload" href="./assets/js/nav.js" as="script">
+    <link rel="stylesheet" href="./assets/css/pounder.css">
+    <link rel="stylesheet" href="./assets/css/pounder-nav.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <script src="./assets/js/main.js" defer></script>
+    <script src="./assets/js/nav.js" defer></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Web Developer and Designer",
+      "url": "/",
+      "image": "/assets/images/logo.png",
+      "sameAs": [
+        "https://twitter.com/WebDeveloper",
+        "https://www.linkedin.com/in/web-developer"
+      ],
+      "jobTitle": "Web Developer and Designer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Web Solutions"
+      }
+    }
+    </script>
+</head>
+<body>
+
+
+
+    <!-- Start nav -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="./">
+                    <img src="./assets/images/logo.png" alt="Logo" loading="lazy">
+                </a>
+            </div>
+            <nav class="navbar" id="navbar">
+                <!-- Navigation links dynamically inserted by JS -->
+            </nav>
+            <button class="menu-toggle" id="menuToggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </button>
+            <div class="side-menu" id="sideMenu">
+                <button class="close-btn" id="closeBtn">×</button>
+                <ul id="navList">
+                    <!-- Mobile navigation links inserted here by JS -->
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- End nav -->
+
+<!--  Main/ Title part  -->
+         <section id="home" class="hero">
+            <h1>Contact...</h1>
+            <p>Email me at contact@yourdomain.co.uk or use the Form below.</p>
+        </section>
+<section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/" method="POST" class="contact-form"> <!-- I suggest using form spree for Git Pages as it is free and i have not seen a easier way to do this on Git Pages-->
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Your subject.." required>
+
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your message.." rows="6" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
+</main>
+
+<!-- Footer Section with Current Year -->
+<footer class="footer">
+    <p>© <span id="current-year"></span> You. All rights reserved. | <a href="https://sites.alfieterry.co.uk/template/pounder">Site desighned by Alfie Sid Alan Terry </a></p>
+</footer>
+
+</body>
+</html>

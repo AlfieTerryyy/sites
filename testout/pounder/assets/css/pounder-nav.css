@@ -1,0 +1,80 @@
+:root {
+    --primary: #2563eb;
+    --primary-light: #60a5fa;
+    --dark: #0f172a;
+    --text: #f1f5f9;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(15, 23, 42, 0.8);
+    color: var(--text);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+.header.hidden {
+    transform: translateY(-100%);
+}
+
+.header .logo img {
+    max-height: 40px;
+    width: auto;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    padding: 0;
+}
+
+.navbar a {
+    color: var(--primary-light);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: var(--primary);
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 80%;
+    background-color: rgba(15, 23, 42, 0.9);
+    display: none;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.side-menu.active {
+    display: flex;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu li a {
+    color: var(--primary-light);
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+}
