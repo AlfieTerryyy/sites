@@ -4,16 +4,8 @@
             "url": "./sites/testout/pounder/"
         },
         {
-            "text": "About",
-            "url": "./sites/testout/pounder/about"
-        },
-        {
             "text": "Contact",
             "url": "./sites/testout/pounder/contact"
-        },
-        {
-            "text": "Policies",
-            "url": "./sites/testout/pounder/policy"
         }
     ]
     
