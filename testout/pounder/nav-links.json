@@ -1,19 +1,19 @@
     [
         {
             "text": "Home",
-            "url": "./"
+            "url": "./sites/testout/pounder/"
         },
         {
             "text": "About",
-            "url": "./about"
+            "url": "./sites/testout/pounder/about"
         },
         {
             "text": "Contact",
-            "url": "./contact"
+            "url": "./sites/testout/pounder/contact"
         },
         {
             "text": "Policies",
-            "url": "./policy"
+            "url": "./sites/testout/pounder/policy"
         }
     ]
     
