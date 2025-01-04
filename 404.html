@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'; script-src 'none';">
+  <title>404 - Page Not Found</title>
+  <style>
+    /* Root variables for easy theme updates */
+    :root {
+      --primary: #2563eb;
+      --primary-light: #60a5fa;
+      --dark: #0f172a;
+      --light: #f1f5f9; /* Slightly beige */
+      --text: #333333; /* Darker text for readability */
+      --text-muted: #6b7280; /* Softer muted text */
+      --background: #faf3e0; /* Creamy beige background */
+      --border-radius: 12px;
+      --transition: all 0.3s ease;
+    }
+
+    /* General reset */
+    body {
+      margin: 0;
+      font-family: "Roboto", Arial, sans-serif;
+      background: var(--background);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    h1 {
+      font-size: 7rem;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, var(--primary-light), var(--primary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    p {
+      font-size: 1.5rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--primary-light);
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.75rem 1.5rem;
+      border: 2px solid var(--primary-light);
+      border-radius: var(--border-radius);
+      transition: var(--transition);
+      font-size: 1.1rem;
+    }
+
+    a:hover {
+      background: var(--primary-light);
+      color: var(--dark);
+      border-color: var(--primary-light);
+    }
+
+    .container {
+      max-width: 600px;
+      padding: 3rem;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: var(--border-radius);
+      background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo img {
+      width: 80px;
+      height: 80px;
+      margin-top: 2rem;
+      border-radius: 50%;
+      border: 2px solid var(--primary-light);
+      padding: 5px;
+    }
+
+    /* Styling for the body of the page */
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .content h1 {
+      font-size: 6rem;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 4rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+
+      .container {
+        padding: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1>404</h1>
+      <p><strong>Oops! Page not found</strong></p>
+      <p>The page you are looking for does not exist or an error occurred.</p>
+      <p><a href="/">Go back to the homepage</a></p>
+      <div class="logo">
+        <img src="https://alfieterry.co.uk/assets/images/logo.png" alt="Logo">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
