@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the portfolio showcasing work and services in web development and design.">
+    <meta name="keywords" content="web development, design, services, portfolio">
+    <meta name="author" content="Web Developer and Designer">
+    <meta property="og:title" content="Web Developer and Designer | Portfolio">
+    <meta property="og:description" content="Explore the portfolio offering web development, design, and creative services.">
+    <meta property="og:image" content="./sites/testout/pounder/assets/images/pre.png">
+    <meta property="og:url" content="./sites/testout/pounder/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@WebDeveloper">
+    <meta name="theme-color" content="#2563eb">
+    <title>Credit | Pounder</title>
+    <link rel="icon" type="image/x-icon" href="./sites/testout/pounder/assets/images/logo.png">
+    <link rel="preload" href="./sites/testout/pounder/assets/css/pounder.css" as="style">
+    <link rel="preload" href="./sites/testout/pounder/assets/js/main.js" as="script">
+    <link rel="preload" href="./sites/testout/pounder/assets/js/nav.js" as="script">
+    <link rel="stylesheet" href="./sites/testout/pounder/assets/css/pounder.css">
+    <link rel="stylesheet" href="./sites/testout/pounder/assets/css/pounder-nav.css">
+    <link rel="stylesheet" href="./sites/testout/pounder/assets/css/form.css">
+    <script src="./sites/testout/pounder/assets/js/main.js" defer></script>
+    <script src="./sites/testout/pounder/assets/js/nav.js" defer></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Web Developer and Designer",
+      "url": "/",
+      "image": "/assets/images/logo.png",
+      "sameAs": [
+        "https://twitter.com/WebDeveloper",
+        "https://www.linkedin.com/in/web-developer"
+      ],
+      "jobTitle": "Web Developer and Designer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Web Solutions"
+      }
+    }
+    </script>
+</head>
+<body>
+
+
+
+    <!-- Start nav -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="./">
+                    <img src="./sites/testout/pounder/assets/images/logo.png" alt="Logo" loading="lazy">
+                </a>
+            </div>
+            <nav class="navbar" id="navbar">
+                <!-- Navigation links dynamically inserted by JS -->
+            </nav>
+            <button class="menu-toggle" id="menuToggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </button>
+            <div class="side-menu" id="sideMenu">
+                <button class="close-btn" id="closeBtn">×</button>
+                <ul id="navList">
+                    <!-- Mobile navigation links inserted here by JS -->
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- End nav -->
+
+<!--  Main/ Title part  -->
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to the Website</h1>
+            <p>This website and its code were originally developed by Alfie Sid Alan Terry. The project is released under the MIT License, which allows you to freely use, modify, and distribute the code with attribution to the original author. Explore my work, services, and creative projects below.</p>
+            <a href="./about" class="button">Learn More</a>
+        </section>
+        
+        <!-- About Section -->
+        <section id="about" class="hero">
+            <h2>About the Project</h2>
+            <p>The code for this website was created by me, Alfie Sid Alan Terry, as part of my work in web development and design. It is available for free use under the MIT License. The website serves as a portfolio that demonstrates my abilities and showcases various projects in the field of web development. I believe in the power of open-source software, and that's why I have made this code freely available to the community for both personal and commercial use.</p>
+            <p>The MIT License grants you permission to use, modify, and distribute this code with proper attribution. You can find more details about the license and its usage on the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License page</a>.</p>
+        </section>
+        
+        <!-- Cards Section -->
+        <section class="grid-container">
+            <article class="grid-item card">
+                <h3>Project 1</h3>
+                <p>Details about Project 1.</p>
+            </article>
+            <article class="grid-item card">
+                <h3>Project 2</h3>
+                <p>Details about Project 2.</p>
+            </article>
+            <article class="grid-item card">
+                <h3>Project 3</h3>
+                <p>Details about Project 3.</p>
+            </article>
+        </section>
+    </main>
+
+<!-- Footer Section with Current Year -->
+<footer class="footer">
+    <p>© <span id="current-year"></span> Alfie Sid Alan Terry. All rights reserved. | <a href="https://sites.alfieterry.co.uk/template/pounder">Site designed by Alfie Sid Alan Terry</a></p>
+    <p>This website's code was originally created by Alfie Sid Alan Terry and is released under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>. Feel free to use, modify, and distribute the code with proper attribution.</p>
+</footer>
+
+</body>
+</html>
