@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const loadNavLinks = async () => {
         try {
-            const response = await fetch('./nav-links.json');
+            const response = await fetch('https://sites.alfieterry.co.uk/sites/testout/pounder/nav-links.json');
             if (!response.ok) throw new Error(`Failed to fetch navigation: ${response.statusText}`);
     
             const links = await response.json();
